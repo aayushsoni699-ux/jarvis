@@ -36,7 +36,7 @@ pygame.mixer.init()
 # Define the function to play sound
 @eel.expose
 def play_assistant_sound():
-    sound_file = r"C:\Users\patha\Videos\Jarvis\frontend\assets\audio\start_sound.mp3"
+    sound_file = r"frontend\\assets\\audio\\start_sound.mp3"
     pygame.mixer.music.load(sound_file)
     pygame.mixer.music.play()
     
